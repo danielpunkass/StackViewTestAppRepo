@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+ConstraintHelpers.h"
 
 @interface ViewController ()
 
@@ -19,10 +20,14 @@
     self.view.backgroundColor = [UIColor redColor];
 
     UIViewController *vc = [[UIViewController alloc] initWithNibName:@"MyView" bundle:nil];
-
+	vc.view.backgroundColor = [UIColor greenColor];
+	
     [vc willMoveToParentViewController:self];
     [self addChildViewController:vc];
     [self.view addSubview:vc.view];
+
+	[vc.view rsConstrainToFillSuperview];
+
     [vc didMoveToParentViewController:self];
 }
 

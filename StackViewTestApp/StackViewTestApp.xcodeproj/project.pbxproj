@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652A2B6F1DA6F26F007D4663 /* UIView+ConstraintHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 652A2B6E1DA6F26F007D4663 /* UIView+ConstraintHelpers.m */; };
 		C774DF831DA6D99900CA798E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C774DF821DA6D99900CA798E /* main.m */; };
 		C774DF861DA6D99900CA798E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C774DF851DA6D99900CA798E /* AppDelegate.m */; };
 		C774DF891DA6D99900CA798E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C774DF881DA6D99900CA798E /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652A2B6D1DA6F26F007D4663 /* UIView+ConstraintHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ConstraintHelpers.h"; sourceTree = "<group>"; };
+		652A2B6E1DA6F26F007D4663 /* UIView+ConstraintHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConstraintHelpers.m"; sourceTree = "<group>"; };
 		C774DF7E1DA6D99900CA798E /* StackViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C774DF821DA6D99900CA798E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C774DF841DA6D99900CA798E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				C774DF851DA6D99900CA798E /* AppDelegate.m */,
 				C774DF871DA6D99900CA798E /* ViewController.h */,
 				C774DF881DA6D99900CA798E /* ViewController.m */,
+				652A2B6D1DA6F26F007D4663 /* UIView+ConstraintHelpers.h */,
+				652A2B6E1DA6F26F007D4663 /* UIView+ConstraintHelpers.m */,
 				C774DF8A1DA6D99900CA798E /* Main.storyboard */,
 				C774DF8D1DA6D99900CA798E /* Assets.xcassets */,
 				C774DF8F1DA6D99900CA798E /* LaunchScreen.storyboard */,
@@ -162,6 +167,7 @@
 			files = (
 				C774DF891DA6D99900CA798E /* ViewController.m in Sources */,
 				C774DF861DA6D99900CA798E /* AppDelegate.m in Sources */,
+				652A2B6F1DA6F26F007D4663 /* UIView+ConstraintHelpers.m in Sources */,
 				C774DF9B1DA6DEA700CA798E /* MyViewController.m in Sources */,
 				C774DF831DA6D99900CA798E /* main.m in Sources */,
 			);
@@ -322,6 +328,7 @@
 				C774DF971DA6D99900CA798E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
